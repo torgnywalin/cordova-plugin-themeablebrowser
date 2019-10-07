@@ -255,7 +255,7 @@
         // [self.themeableBrowserViewController setCloseButtonTitle:browserOptions.closebuttoncaption];
     }
     // Set Presentation Style
-    UIModalPresentationStyle presentationStyle = .fullscreen; // default
+    UIModalPresentationStyle presentationStyle = .UIModalPresentationFullScreen; // default
     if (browserOptions.presentationstyle != nil) {
         if ([[browserOptions.presentationstyle lowercaseString] isEqualToString:@"pagesheet"]) {
             presentationStyle = UIModalPresentationPageSheet;
